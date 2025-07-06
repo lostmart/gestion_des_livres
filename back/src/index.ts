@@ -1,3 +1,4 @@
+import { Request, Response } from "express"
 import express from "express"
 
 import booksRouter from "./router/books"
@@ -10,7 +11,7 @@ const PORT = process.env.PORT || 3000
  * @group Root - Base endpoint to check if server is running
  * @returns {Object} 200 - A simple success message
  */
-app.get("/", (req, res) => {
+app.get("/", (req: Request, res: Response) => {
 	res.json({
 		message: "Hello World",
 	})
