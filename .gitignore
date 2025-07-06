@@ -1,0 +1,35 @@
+# Node modules (backend)
+back/node_modules/
+back/dist/
+
+# Environment variables
+.env
+back/.env
+
+# Logs
+back/npm-debug.log*
+back/yarn-debug.log*
+back/yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# TypeScript build outputs
+back/*.js
+back/*.js.map
+back/**/*.js
+back/**/*.js.map
+
+# Frontend (optional - update depending on actual tooling)
+front/node_modules/
+front/dist/
+front/build/
+front/.env
+
+# General
+*.log
