@@ -18,7 +18,7 @@ app.get("/", (req: Request, res: Response) => {
 })
 
 // Middleware to parse JSON bodies
-//app.use(express.json())
+app.use(express.json())
 // Mount the books router under /api/books
 app.use("/api/books/", booksRouter)
 
